@@ -32,8 +32,8 @@ When("clico em Proceed To Checkout e escolho Register ou Login no modal", () => 
 });
 
 When("preencho email {string} e senha {string} para logar", (email, senha) => {
-  cy.get('[data-qa="login-email"]').type('teste2024@teste.com.br');
-  cy.get('[data-qa="login-password"]').type('teste');
+  cy.get('[data-qa="login-email"]').type("teste2024@teste.com.br");
+  cy.get('[data-qa="login-password"]').type("teste");
   cy.get('[data-qa="login-button"]').click();
 });
 
